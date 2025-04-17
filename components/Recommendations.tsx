@@ -87,7 +87,7 @@ export default function Recommendations() {
       true
     );
     containerRef.current?.addEventListener(
-      "blur-sm",
+      "blur",
       (event) => {
         if (
           event.currentTarget &&
@@ -119,7 +119,7 @@ export default function Recommendations() {
         true
       );
       containerRef.current?.removeEventListener(
-        "blur-sm",
+        "blur",
         (event) => {
           if (
             event.currentTarget &&
