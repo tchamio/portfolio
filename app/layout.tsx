@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="dark">
       {/* suppressHydrationWarning: https://github.com/vercel/next.js/issues/44343 */}
       <meta
         name="format-detection"
