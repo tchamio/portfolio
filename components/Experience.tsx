@@ -54,7 +54,7 @@ export default function Experience() {
       date: "2019 - 2021",
       location: "Rabat, Morocco",
       description:
-        "Setting vision, leadership, mentoring juniors developpers while directly participating in communications with clients. Building apps boilerplate",
+        "Setting vision, leadership, mentoring juniors developers while directly participating in communications with clients. Building apps boilerplate",
     },
     {
       title: "Front-End Developper",
@@ -63,7 +63,7 @@ export default function Experience() {
       date: "2016 - 2019",
       location: "Rabat, Morocco",
       description:
-        "Contribute to developpement of mobile and web apps from scratch. Maintenance and evolutions of apps. Publication of apps on stores",
+        "Contribute to development of mobile and web apps from scratch. Maintenance and evolutions of apps. Publication of apps on stores",
     },
   ];
 
