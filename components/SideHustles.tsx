@@ -24,11 +24,13 @@ const Svg2 = () => (
 export default function SideHustles() {
   const items = [
     {
-      title: "InformMe ",
+      title: "Dozzo",
       link: "#0",
       icon: <Svg1 />,
       description:
         "A mobile app to students in Benin (West Africa country) to help them get courses schedule and exam results from their universities.",
+      technical:
+        "typescript, react-native, reactjs, react-admin, node.js, express.js, mongodb, vite",
     },
     {
       title: "ImmoGestion",
@@ -36,6 +38,7 @@ export default function SideHustles() {
       icon: <Svg2 />,
       description:
         "A Saas to help real estate operation to manage house renting and buying in Africa.",
+      technical: "typescript, reactjs, tailwind, node.js, mongodb, vite",
     },
   ];
 
@@ -74,6 +77,12 @@ export default function SideHustles() {
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 {item.description}
+              </p>
+              <h4 className="mt-10 font-semibold text-gray-800 dark:text-gray-100">
+                Technical stack :
+              </h4>
+              <p className="text-[13px] text-gray-800 dark:text-gray-100 italic">
+                {item.technical}
               </p>
             </div>
           </article>

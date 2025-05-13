@@ -1,18 +1,42 @@
 import Image from "next/image";
-import Thumbnail01 from "@/public/images/tutorial-01.jpg";
-import Thumbnail02 from "@/public/images/tutorial-02.jpg";
+import Wr from "@/public/images/wr.png";
+import Afma from "@/public/images/afma.png";
+import Pics from "@/public/images/picsprint.png";
+import Inwi from "@/public/images/inwi.png";
+import Livry from "@/public/images/livry.png";
+import LZ from "@/public/images/lz.png";
 
 export default function Tutorials() {
   const items = [
     {
-      title: "Learn Programming in 2024",
-      link: "#0",
-      image: Thumbnail01,
+      title: "Picsprint",
+      link: "https://play.google.com/store/apps/details?id=com.picsprint",
+      image: Pics,
     },
     {
-      title: "Learn Next.js in 20min",
+      title: "Afma",
+      link: "https://play.google.com/store/apps/details?id=com.tsf.afma&hl=fr",
+      image: Afma,
+    },
+    {
+      title: "Lyazidi",
+      link: "https://play.google.com/store/apps/details?id=com.lyazidi&hl=fr",
+      image: LZ,
+    },
+    {
+      title: "Livry",
+      link: "https://play.google.com/store/apps/details?id=com.fl.livry",
+      image: Livry,
+    },
+    {
+      title: "Inwi",
       link: "#0",
-      image: Thumbnail02,
+      image: Inwi,
+    },
+    {
+      title: "Weekly Recipes",
+      link: "#0",
+      image: Wr,
     },
   ];
 

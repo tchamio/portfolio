@@ -37,6 +37,7 @@ export default function Experience() {
       location: "Paris, France",
       description:
         "Contribute to the maintenance and evolution of 3 e-commerce websites (printemps.com, placedestendances.com, citadium.com).",
+      skills: "SSR, Symfony, Webperf, Vanilla Javascript",
     },
     {
       title: "Senior Front-End Developer at NTT Data",
@@ -46,6 +47,7 @@ export default function Experience() {
       location: "Rabat, Morocco",
       description:
         "Contribute to the maintenance and evolution of an in-house solution for the European Patent Office.",
+      skills: "Web app development, Micro frontend architecture, Communication",
     },
     {
       title: "Team lead / Senior Front-End Developer at Flexi Apps",
@@ -55,6 +57,7 @@ export default function Experience() {
       location: "Rabat, Morocco",
       description:
         "Setting vision, leadership, mentoring juniors developers while directly participating in communications with clients. Building apps boilerplate",
+      skills: "Communication, Mentorship, App architecture",
     },
     {
       title: "Front-End Developper",
@@ -64,6 +67,7 @@ export default function Experience() {
       location: "Rabat, Morocco",
       description:
         "Contribute to development of mobile and web apps from scratch. Maintenance and evolutions of apps. Publication of apps on stores",
+      skills: "Cross-plateform mobile development, Web application development",
     },
   ];
 
@@ -101,6 +105,12 @@ export default function Experience() {
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   {item.description}
+                </p>
+                <h4 className="mt-10 font-semibold text-gray-800 dark:text-gray-100">
+                  Skills
+                </h4>
+                <p className="text-[13px] text-gray-800 dark:text-gray-100 italic">
+                  {item.skills}
                 </p>
               </div>
             </div>
