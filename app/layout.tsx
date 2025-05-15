@@ -1,4 +1,5 @@
 import { Inter, Inter_Tight } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import Theme from "./theme-provider";
 import Header from "@/components/ui/header";
@@ -52,6 +53,7 @@ export default function RootLayout({
             </div>
           </div>
         </Theme>
+        <Analytics />
       </body>
     </html>
   );
