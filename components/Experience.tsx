@@ -50,24 +50,25 @@ export default function Experience() {
       skills: "Web app development, Micro frontend architecture, Communication",
     },
     {
-      title: "Team lead / Senior Front-End Developer at Flexi Apps",
+      title: "Team lead / Fullstack js Developer (Web/Mobile) at Flexi Apps",
       link: "#0",
       icon: <Svg3 />,
       date: "2019 - 2021",
       location: "Rabat, Morocco",
       description:
         "Setting vision, leadership, mentoring juniors developers while directly participating in communications with clients. Building apps boilerplate",
-      skills: "Communication, Mentorship, App architecture",
+      skills:
+        "Communication, Mentorship, App architecture, Fullstack development",
     },
     {
-      title: "Front-End Developper",
+      title: "Front-End Developper (Web/Mobile)",
       link: "#0",
       icon: <Svg3 />,
       date: "2016 - 2019",
       location: "Rabat, Morocco",
       description:
         "Contribute to development of mobile and web apps from scratch. Maintenance and evolutions of apps. Publication of apps on stores",
-      skills: "Cross-plateform mobile development, Web application development",
+      skills: "Cross-plateform mobile development, Web app development",
     },
   ];
 
